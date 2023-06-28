@@ -4,17 +4,16 @@ int main()
 {
     string disliked = "ignorante";
 
-    for(string word; cin>>word; )
+    for (string word; cin >> word;)
     {
         if (word != disliked)
         {
-            cout<<word<<" ";
+            cout << word << " ";
         }
         else
         {
-            cout<<"beep ";
+            cout << "beep ";
         }
-
     }
     keep_window_open();
     return 0;
